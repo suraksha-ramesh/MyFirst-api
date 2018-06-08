@@ -1,0 +1,38 @@
+
+>npm init    //To create package.json
+
+>npm install --save <package-name>   //To install a package 
+
+                                     // --save is to have dependencies field in package.json
+    
+>node server.js       //Runs the server
+
+>mongod      //To open the database
+
+>mongo       //To enter data into database
+
+>show dbs    //Shows all the databases
+
+>use database-name  //To tell that a specific collection is used
+
+>db.database-name.isert({ list of key:value})   //To insert documents to the current database
+                                        //Every record is called as document in mongoDB
+                                        
+>db.database-name.find()         //Displays all the documents
+
+>db.database-name.find().pretty    //Makes it better to read
+
+>db.database-name.find({key:value})    //Searches a specific document matching the key value pair.>db.database-name.find()  Multiple results may be returned
+
+>db.database-name.findOne({key:value})    //Returns the first that it encounters
+
+>>db.database-name.delete({key:value})     //Delete a specific document
+
+
+
+
+
+
+
+
+https://www.vijayabankonline.in/NASApp/AuthenticationController;jsessionid=00002M0CYdDbOf_AQwzKl_0ePZS:1aea9lopl?bwayparam=AaCcnpA5%2F1wNhbnz4sC4eCQrNDYNIssgBBdVQxxgrys%3D
